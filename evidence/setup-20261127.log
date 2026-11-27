@@ -1,0 +1,35 @@
+....................................                                     [100%]
+=============================== warnings summary ===============================
+.venv/lib/python3.12/site-packages/starlette/testclient.py:40
+  /home/hatch/workspace/goals/20/hidden_files/bid-optimize-20261127/2870-build/repo/.venv/lib/python3.12/site-packages/starlette/testclient.py:40: DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+    _PortalFactoryType = typing.Callable[[], typing.ContextManager[anyio.abc.BlockingPortal]]
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+36 passed, 1 warning in 0.90s
+A 相：pytest exit=0
+B 相 变异 1：1% 边界 <= 改 <：pytest exit=1（期望非 0）
+B 相 变异 2：合并允许 signed：pytest exit=1（期望非 0）
+C 相：pytest exit=0
+contract.py SHA256（变异前后一致）：77d852ec76598c45fa4ab5305fe89dcf49c820a55e829584a9852494a0a8c4b2
+MUTATION CHECK: PASS
+.github/workflows/ci.yml: OK
+README.md: OK
+crm/__init__.py: OK
+crm/dedup/__init__.py: OK
+crm/dedup/api.py: OK
+crm/dedup/contract.py: OK
+crm/dedup/models.py: OK
+crm/dedup/permissions.py: OK
+crm/dedup/store.py: OK
+evidence/mutation-20261127.log: OK
+evidence/pytest-20261127.log: OK
+requirements.txt: OK
+scripts/mutation_check.py: OK
+setup.sh: OK
+tests/conftest.py: OK
+tests/test_ac1_rules.py: OK
+tests/test_ac2_merge_signed.py: OK
+tests/test_ac3_schedule_move.py: OK
+tests/test_ac4_report.py: OK
+tests/test_api.py: OK
+SELFTEST: PASS

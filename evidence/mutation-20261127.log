@@ -1,0 +1,6 @@
+A 相：pytest exit=0
+B 相 变异 1：1% 边界 <= 改 <：pytest exit=1（期望非 0）
+B 相 变异 2：合并允许 signed：pytest exit=1（期望非 0）
+C 相：pytest exit=0
+contract.py SHA256（变异前后一致）：77d852ec76598c45fa4ab5305fe89dcf49c820a55e829584a9852494a0a8c4b2
+MUTATION CHECK: PASS
